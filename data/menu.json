@@ -47,7 +47,7 @@
         {
           "name": "Sandwich",
           "price": "145 kč",
-          "note": "S trhaným hovězím masem",
+          "note": "S trhaným masem",
           "image": "menu-sandwich.webp"
         },
         {
@@ -252,7 +252,7 @@
           "price": "60 Kč"
         },
         {
-          "name": "Endinger",
+          "name": "Erdinger",
           "price": "60 Kč",
           "note": "(nealko - citron, grep)"
         }
