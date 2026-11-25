@@ -1,0 +1,382 @@
+{
+  "sections": [
+    {
+      "id": "denni-nabidka",
+      "title": "Denní nabídka",
+      "items": [
+        {
+          "name": "Polévka",
+          "price": "59 Kč",
+          "note": "Dle nabídky",
+          "image": "menu-polevka.webp"
+        }
+      ]
+    },
+    {
+      "id": "stala-nabidka",
+      "title": "Stálá nabídka",
+      "chip": true,
+      "items": [
+        {
+          "name": "Opečený chléb",
+          "price": "125 Kč",
+          "note": "Avokádo, cherry rajčata, losos/vejce",
+          "image": "menu-chleb-avokado.webp",
+          "imageTablet": "menu-chleb-avokado-tablet.webp"
+        },
+        {
+          "name": "opečený chléb",
+          "price": "99 kč",
+          "note": "Řepová pomazánka, balkánský sýr, vlašské ořechy",
+          "image": "menu-chleb-repa.webp",
+          "leaf": true
+        },
+        {
+          "name": "opečený chléb",
+          "price": "99 kč",
+          "note": "Čerstvý sýr, sušená rajčata, dýňová semínka",
+          "image": "menu-chleb-syr.webp",
+          "leaf": true
+        },
+        {
+          "name": "opečený chléb",
+          "price": "125 kč",
+          "note": "Avokádo, cherry rajčata, losos/vejce",
+          "image": "menu-chleb-losos.webp"
+        },
+        {
+          "name": "Sandwich",
+          "price": "145 kč",
+          "note": "S trhaným hovězím masem",
+          "image": "menu-sandwich.webp"
+        },
+        {
+          "name": "Zapečená Tortilla",
+          "price": "90 kč",
+          "note": "Šunka, sýr",
+          "image": "menu-tortilla.webp"
+        },
+        {
+          "name": "3ks lívance",
+          "price": "135 kč",
+          "note": "S jogurtem, horkým ovocem, čekankový sirup",
+          "image": "menu-livance.webp",
+          "leaf": true
+        },
+        {
+          "name": "Smoothie bowl",
+          "price": "149 Kč",
+          "note": "Ovoce, ořechy",
+          "image": "menu-smoothie-bowl.webp",
+          "leaf": true
+        },
+        {
+          "name": "Ovesná kaše",
+          "price": "105 Kč",
+          "note": "Dle nabídky",
+          "image": "menu-ovesna-kase.webp",
+          "leaf": true
+        }
+      ]
+    },
+    {
+      "id": "kava",
+      "title": "Káva",
+      "chip": true,
+      "items": [
+        {
+          "name": "Ristreto",
+          "price": "55 Kč"
+        },
+        {
+          "name": "Espresso",
+          "price": "55 Kč"
+        },
+        {
+          "name": "Double espresso",
+          "price": "85 Kč"
+        },
+        {
+          "name": "espresso machiato",
+          "price": "59 Kč"
+        },
+        {
+          "name": "Lungo",
+          "price": "55 Kč"
+        },
+        {
+          "name": "Capuccino",
+          "price": "69 Kč"
+        },
+        {
+          "name": "Flat white",
+          "price": "89 Kč"
+        },
+        {
+          "name": "Chai latte",
+          "price": "80 Kč"
+        },
+        {
+          "name": "Caffé latte",
+          "price": "75 Kč"
+        },
+        {
+          "name": "ICEd coffe",
+          "price": "79 Kč"
+        },
+        {
+          "name": "Espresso Tonic",
+          "price": "80Kč"
+        },
+        {
+          "name": "Matcha s příchutí",
+          "price": "125 Kč"
+        },
+        {
+          "name": "Matcha latte",
+          "price": "105 Kč"
+        },
+        {
+          "name": "BABYCCINO",
+          "price": "15 Kč"
+        },
+        {
+          "name": "Alternativní mléko",
+          "price": "15 Kč"
+        }
+      ]
+    },
+    {
+      "id": "teple-napoje",
+      "title": "Teplé nápoje",
+      "chip": true,
+      "items": [
+        {
+          "name": "ČAJ (dle výběru)",
+          "price": "60 Kč"
+        },
+        {
+          "name": "yuzu tea",
+          "price": "65 Kč"
+        },
+        {
+          "name": "Sypané čaje",
+          "price": "70 Kč"
+        },
+        {
+          "name": "Pečený čaj",
+          "price": "79 Kč"
+        }
+      ]
+    },
+    {
+      "id": "nealko",
+      "title": "Nealko",
+      "chip": true,
+      "items": [
+        {
+          "name": "VODA (perlivá, neperlivá) 0,33l",
+          "price": "55 Kč",
+          "nameMobile": "VODA",
+          "noteMobile": "(perlivá, neperlivá)"
+        },
+        {
+          "name": "Limonády 0,33l",
+          "price": "60 Kč",
+          "note": "Cola, cola zero, fanta, sprite"
+        },
+        {
+          "name": "Granini Džus 0,2l",
+          "price": "60 Kč"
+        },
+        {
+          "name": "Domácí Limonáda 0,4l",
+          "price": "75 Kč",
+          "note": "(dle nabídky)"
+        },
+        {
+          "name": "Kombucha 0,33L",
+          "price": "85 Kč"
+        },
+        {
+          "name": "Red bull",
+          "price": "75 Kč"
+        },
+        {
+          "name": "Pomerančový fresh 0,1 L",
+          "price": "42 Kč",
+          "nameMobile": "fresh 0,1 L",
+          "noteMobile": "Pomerančový"
+        },
+        {
+          "name": "Capri-sun",
+          "price": "25 Kč"
+        },
+        {
+          "name": "Jarritos 0,37L",
+          "price": "85 Kč"
+        }
+      ]
+    },
+    {
+      "id": "vino",
+      "title": "Rozlévané víno",
+      "chip": true,
+      "items": [
+        {
+          "name": "Prosecco 0,2L",
+          "price": "110 Kč"
+        },
+        {
+          "name": "Bohemia sekt 0,15L",
+          "price": "90 Kč"
+        },
+        {
+          "name": "Víno červené, bílé 0,15l",
+          "price": "98 Kč",
+          "note": "(dle nabídky)"
+        }
+      ]
+    },
+    {
+      "id": "pivo",
+      "title": "Pivo",
+      "chip": true,
+      "items": [
+        {
+          "name": "Pilsner urquell O,33l",
+          "price": "60 Kč"
+        },
+        {
+          "name": "Proud 0,33l",
+          "price": "60 Kč"
+        },
+        {
+          "name": "Endinger",
+          "price": "60 Kč",
+          "note": "(nealko - citron, grep)"
+        }
+      ]
+    },
+    {
+      "id": "michane-napoje",
+      "title": "Míchané nápoje",
+      "chip": true,
+      "items": [
+        {
+          "name": "Aperol spritz",
+          "price": "150 Kč"
+        },
+        {
+          "name": "Frozen Aperol Spritz",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Mojito",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Cuba libre",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Sex on the beach",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Mimosa",
+          "price": "115 Kč"
+        },
+        {
+          "name": "Moscow mule",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Gin Tonic",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Skinny bitch",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Skinny bitch Maracuja",
+          "price": "165 Kč",
+          "nameMobile": "Skinny bitch",
+          "noteMobile": "Maracuja"
+        },
+        {
+          "name": "Virgin Mojito",
+          "price": "125 Kč"
+        }
+      ]
+    },
+    {
+      "id": "destilaty",
+      "title": "Destiláty",
+      "chip": true,
+      "items": [
+        {
+          "name": "Pravda vodka",
+          "price": "85 Kč"
+        },
+        {
+          "name": "Hendrick’s Gin",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Tanqueray Gin",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Beefeater Gin",
+          "price": "85 Kč"
+        },
+        {
+          "name": "Beefeater Gin Pink",
+          "price": "85 kč"
+        },
+        {
+          "name": "Baron Hildprandt Zralá hruška",
+          "price": "130 Kč",
+          "nameMobile": "Baron Hildprandt",
+          "noteMobile": "Zralá hruška"
+        },
+        {
+          "name": "Baron Hildprandt Zralá malina",
+          "price": "130 Kč",
+          "nameMobile": "Baron Hildprandt",
+          "noteMobile": "Zralá malina"
+        },
+        {
+          "name": "Danish Navy",
+          "price": "165 Kč"
+        },
+        {
+          "name": "Bumbu Rum",
+          "price": "155 Kč"
+        },
+        {
+          "name": "El Dorado Rum",
+          "price": "155 Kč"
+        },
+        {
+          "name": "Havana",
+          "price": "85 kč"
+        },
+        {
+          "name": "Metaxa Grande Fine",
+          "price": "235 Kč"
+        },
+        {
+          "name": "Jack Daniel’s",
+          "price": "95 Kč"
+        },
+        {
+          "name": "Jameson",
+          "price": "90 Kč"
+        }
+      ]
+    }
+  ]
+}
