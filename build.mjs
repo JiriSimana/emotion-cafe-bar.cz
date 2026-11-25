@@ -84,7 +84,8 @@ function layout({ path, title, description, body, bodyClass = '', withFooter = t
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(full)}">
 <meta property="og:description" content="${esc(description || info.description)}">
-<meta property="og:image" content="/assets/img/hero-poster.webp">
+<meta property="og:image" content="${info.url || ''}/assets/img/hero-poster.webp">
+${info.url && path !== '/404' ? `<link rel="canonical" href="${info.url}${path === '/' ? '/' : path}">\n<meta property="og:url" content="${info.url}${path === '/' ? '/' : path}">` : ''}
 <meta name="theme-color" content="#0a0b0a">
 <link rel="icon" href="/assets/img/favicon.png">
 <link rel="preload" href="/assets/fonts/forum-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -359,7 +360,8 @@ function build() {
   writeFileSync(join(out, 'assets/main.js'), read('src/main.js'));
   const pages = { 'index.html': home(), 'menu.html': menuPage(), 'about.html': about(), 'reservation.html': reservation(), 'contact.html': contact(), 'licensing.html': licensing(), '404.html': notFound() };
   for (const [file, html] of Object.entries(pages)) writeFileSync(join(out, file), html);
-  writeFileSync(join(out, 'robots.txt'), 'User-agent: *\nAllow: /\n');
+  writeFileSync(join(out, 'robots.txt'), `User-agent: *\nAllow: /\n${info.url ? `Sitemap: ${info.url}/sitemap.xml\n` : ''}`);
+  if (info.url) writeFileSync(join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['/', '/menu', '/about', '/reservation', '/contact'].map((p) => `  <url><loc>${info.url}${p}</loc></url>`).join('\n')}\n</urlset>\n`);
   console.log(`Hotovo: ${Object.keys(pages).length} stránek v dist/`);
 }
 

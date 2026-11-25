@@ -1,10 +1,19 @@
 {
   "framework": null,
+  "installCommand": "",
   "buildCommand": "node build.mjs",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
-    { "source": "/assets/(fonts|img|video)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }] }
+    {
+      "source": "/assets/(fonts|img|video)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
   ]
 }
